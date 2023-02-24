@@ -7,7 +7,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 var AWS = require("aws-sdk");
 AWS.config.update({
-    accessKeyId: 'AKIAIGEJPNVKRCGX3D6A', secretAccessKey: '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', region: 'ca-central-1'});
+    region: 'ca-central-1'});
 var s3 = new AWS.S3();
 
 function refreshPage() {
